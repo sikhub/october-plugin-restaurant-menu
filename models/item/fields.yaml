@@ -7,7 +7,7 @@ fields:
     price:
         label: 'sikhub.restaurantmenu::lang.item.price'
         span: auto
-        type: number
+        type: text
     description:
         label: 'sikhub.restaurantmenu::lang.item.description'
         span: full

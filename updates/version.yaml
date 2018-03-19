@@ -6,3 +6,6 @@
 1.0.3:
     - 'Created table sikhub_restaurantmenu_items'
     - builder_table_create_sikhub_restaurantmenu_items.php
+1.0.4:
+    - 'Updated table sikhub_restaurantmenu_items'
+    - builder_table_update_sikhub_restaurantmenu_items.php
