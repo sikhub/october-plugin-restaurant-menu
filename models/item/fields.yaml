@@ -1,0 +1,23 @@
+fields:
+    title:
+        label: 'sikhub.restaurantmenu::lang.item.title'
+        span: auto
+        required: 1
+        type: text
+    price:
+        label: 'sikhub.restaurantmenu::lang.item.price'
+        span: auto
+        type: number
+    description:
+        label: 'sikhub.restaurantmenu::lang.item.description'
+        span: full
+        type: text
+tabs:
+    fields:
+        section:
+            label: 'sikhub.restaurantmenu::lang.item.section'
+            nameFrom: title
+            span: auto
+            required: 1
+            type: relation
+            tab: 'sikhub.restaurantmenu::lang.item.tab.settings'

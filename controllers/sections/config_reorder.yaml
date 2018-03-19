@@ -1,0 +1,4 @@
+title: Sections
+modelClass: Sikhub\RestaurantMenu\Models\Section
+toolbar:
+    buttons: reorder_toolbar

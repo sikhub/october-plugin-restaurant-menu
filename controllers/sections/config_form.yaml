@@ -1,0 +1,10 @@
+name: Sections
+form: $/sikhub/restaurantmenu/models/section/fields.yaml
+modelClass: Sikhub\RestaurantMenu\Models\Section
+defaultRedirect: sikhub/restaurantmenu/sections
+create:
+    redirect: 'sikhub/restaurantmenu/sections/update/:id'
+    redirectClose: sikhub/restaurantmenu/sections
+update:
+    redirect: sikhub/restaurantmenu/sections
+    redirectClose: sikhub/restaurantmenu/sections

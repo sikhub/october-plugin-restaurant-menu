@@ -1,0 +1,11 @@
+columns:
+    id:
+        label: 'sikhub.restaurantmenu::lang.section.id'
+        type: number
+        searchable: true
+        sortable: true
+    title:
+        label: 'sikhub.restaurantmenu::lang.section.title'
+        type: text
+        searchable: true
+        sortable: true

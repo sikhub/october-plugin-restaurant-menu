@@ -3,3 +3,6 @@
 1.0.2:
     - 'Created table sikhub_restaurantmenu_sections'
     - builder_table_create_sikhub_restaurantmenu_sections.php
+1.0.3:
+    - 'Created table sikhub_restaurantmenu_items'
+    - builder_table_create_sikhub_restaurantmenu_items.php

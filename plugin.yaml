@@ -3,4 +3,24 @@ plugin:
     description: 'sikhub.restaurantmenu::lang.plugin.description'
     author: Sikhub
     icon: oc-icon-book
-    homepage: ''
+    homepage: 'https://github.com/sikhub/october-plugin-restaurant-menu'
+navigation:
+    sikhub-menu:
+        label: 'sikhub.restaurantmenu::lang.menu.menu'
+        url: sikhub/restaurantmenu/items
+        icon: icon-book
+        permissions:
+            - can_edit_items
+        sideMenu:
+            sikhub-items:
+                label: 'sikhub.restaurantmenu::lang.menu.items'
+                url: sikhub/restaurantmenu/items
+                icon: icon-sitemap
+                permissions:
+                    - can_edit_items
+            sikhub-sections:
+                label: 'sikhub.restaurantmenu::lang.menu.sections'
+                url: sikhub/restaurantmenu/sections
+                icon: icon-certificate
+                permissions:
+                    - can_edit_sections
