@@ -1,0 +1,6 @@
+plugin:
+    name: 'sikhub.restaurantmenu::lang.plugin.name'
+    description: 'sikhub.restaurantmenu::lang.plugin.description'
+    author: Sikhub
+    icon: oc-icon-book
+    homepage: ''
