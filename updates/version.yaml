@@ -2,7 +2,7 @@
     - 'Initialize plugin.'
 1.0.2:
     - 'Created table blazcigale_restaurantmenu_sections'
-    - builder_table_create_blazcigale_restaurantmenu_sections.php
+    - builder_table_create_blaz_cigale_restaurantmenu_sections.php
 1.0.3:
     - 'Created table blazcigale_restaurantmenu_items'
     - builder_table_create_blazcigale_restaurantmenu_items.php
@@ -11,7 +11,7 @@
     - builder_table_update_blazcigale_restaurantmenu_items.php
 1.0.5:
     - 'Created table blazcigale_restaurantmenu_allergens'
-    - builder_table_create_blazcigale_restaurantmenu_allergens.php
+    - builder_table_create_blaz_cigale_restaurantmenu_allergens.php
 1.0.6:
     - 'Created table blazcigale_restaurantmenu_items_allergens'
-    - builder_table_create_blazcigale_restaurantmenu_items_allergens.php
+    - builder_table_create_blaz_cigale_restaurantmenu_items_allergens.php

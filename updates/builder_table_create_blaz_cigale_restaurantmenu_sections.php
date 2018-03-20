@@ -3,21 +3,20 @@
 use Schema;
 use October\Rain\Database\Updates\Migration;
 
-class BuilderTableCreateBlazCigaleRestaurantmenuAllergens extends Migration
+class BuilderTableCreateBlazCigaleRestaurantmenuSections extends Migration
 {
     public function up()
     {
-        Schema::create('blazcigale_restaurantmenu_allergens', function($table)
+        Schema::create('blazcigale_restaurantmenu_sections', function($table)
         {
             $table->engine = 'InnoDB';
             $table->increments('id')->unsigned();
-            $table->string('name');
-            $table->string('code');
+            $table->string('title');
         });
     }
     
     public function down()
     {
-        Schema::dropIfExists('blazcigale_restaurantmenu_allergens');
+        Schema::dropIfExists('blazcigale_restaurantmenu_sections');
     }
 }
