@@ -1,0 +1,4 @@
+title: Allergens
+modelClass: Sikhub\RestaurantMenu\Models\Allergen
+toolbar:
+    buttons: reorder_toolbar

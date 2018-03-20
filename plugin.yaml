@@ -24,3 +24,7 @@ navigation:
                 icon: icon-certificate
                 permissions:
                     - can_edit_sections
+            sikhub-allergens:
+                label: 'sikhub.restaurantmenu::lang.menu.allergens'
+                url: sikhub/restaurantmenu/allergens
+                icon: icon-bug

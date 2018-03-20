@@ -9,3 +9,9 @@
 1.0.4:
     - 'Updated table sikhub_restaurantmenu_items'
     - builder_table_update_sikhub_restaurantmenu_items.php
+1.0.5:
+    - 'Created table sikhub_restaurantmenu_allergens'
+    - builder_table_create_sikhub_restaurantmenu_allergens.php
+1.0.6:
+    - 'Created table sikhub_restaurantmenu_items_allergens'
+    - builder_table_create_sikhub_restaurantmenu_items_allergens.php

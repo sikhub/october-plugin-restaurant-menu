@@ -21,3 +21,10 @@ tabs:
             required: 1
             type: relation
             tab: 'sikhub.restaurantmenu::lang.item.tab.settings'
+        allergens:
+            label: 'sikhub.restaurantmenu::lang.item.allergens'
+            nameFrom: name
+            descriptionFrom: description
+            span: auto
+            type: relation
+            tab: 'sikhub.restaurantmenu::lang.item.tab.allergens'

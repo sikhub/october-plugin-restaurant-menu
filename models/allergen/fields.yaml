@@ -1,0 +1,11 @@
+fields:
+    name:
+        label: 'sikhub.restaurantmenu::lang.allergen.name'
+        span: auto
+        required: 1
+        type: text
+    code:
+        label: 'sikhub.restaurantmenu::lang.allergen.code'
+        span: auto
+        required: 1
+        type: text

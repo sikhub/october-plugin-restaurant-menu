@@ -1,0 +1,10 @@
+name: Allergens
+form: $/sikhub/restaurantmenu/models/allergen/fields.yaml
+modelClass: Sikhub\RestaurantMenu\Models\Allergen
+defaultRedirect: sikhub/restaurantmenu/allergens
+create:
+    redirect: 'sikhub/restaurantmenu/allergens/update/:id'
+    redirectClose: sikhub/restaurantmenu/allergens
+update:
+    redirect: sikhub/restaurantmenu/allergens
+    redirectClose: sikhub/restaurantmenu/allergens

@@ -5,7 +5,7 @@ use Model;
 /**
  * Model
  */
-class Item extends Model
+class Allergen extends Model
 {
     use \October\Rain\Database\Traits\Validation;
     
@@ -24,18 +24,5 @@ class Item extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'sikhub_restaurantmenu_items';
-
-    public $belongsTo = [
-        'section' => Section::class,
-    ];
-
-    public $belongsToMany = [
-        'allergens' => [
-            Allergen::class,
-            'table' => 'sikhub_restaurantmenu_items_allergens',
-            'key' => 'item_id',
-            'otherKey' => 'allergen_id',
-        ],
-    ];
+    public $table = 'sikhub_restaurantmenu_allergens';
 }

@@ -13,9 +13,11 @@
         'description' => 'Description',
         'tab' => [
             'settings' => 'Settings',
+            'allergens' => 'Allergens',
         ],
         'section' => 'Section',
         'id' => 'ID',
+        'allergens' => 'Allergens',
     ],
     'permissions' => [
         'can_edit_sections' => 'Can edit sections',
@@ -25,11 +27,17 @@
         'menu' => 'Restaurant menu',
         'sections' => 'Sections',
         'items' => 'Items',
+        'allergens' => 'Allergens',
     ],
     'component' => [
         'menu_items' => [
             'name' => 'Menu items',
             'description' => 'Display menu sections and items',
         ],
+    ],
+    'allergen' => [
+        'code' => 'Code',
+        'name' => 'Name',
+        'id' => 'Id',
     ],
 ];
