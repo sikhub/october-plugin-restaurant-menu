@@ -1,5 +1,5 @@
-list: $/sikhub/restaurantmenu/models/allergen/columns.yaml
-modelClass: Sikhub\RestaurantMenu\Models\Allergen
+list: $/blazcigale/restaurantmenu/models/allergen/columns.yaml
+modelClass: BlazCigale\RestaurantMenu\Models\Allergen
 title: Allergens
 noRecordsMessage: 'backend::lang.list.no_records'
 showSetup: true
@@ -9,4 +9,4 @@ toolbar:
     buttons: list_toolbar
     search:
         prompt: 'backend::lang.list.search_prompt'
-recordUrl: 'sikhub/restaurantmenu/allergens/update/:id'
+recordUrl: 'blazcigale/restaurantmenu/allergens/update/:id'

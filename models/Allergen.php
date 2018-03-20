@@ -1,4 +1,4 @@
-<?php namespace Sikhub\RestaurantMenu\Models;
+<?php namespace BlazCigale\RestaurantMenu\Models;
 
 use Model;
 
@@ -24,5 +24,5 @@ class Allergen extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'sikhub_restaurantmenu_allergens';
+    public $table = 'blazcigale_restaurantmenu_allergens';
 }

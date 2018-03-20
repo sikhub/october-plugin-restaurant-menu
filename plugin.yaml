@@ -1,30 +1,30 @@
 plugin:
-    name: 'sikhub.restaurantmenu::lang.plugin.name'
-    description: 'sikhub.restaurantmenu::lang.plugin.description'
+    name: 'blazcigale.restaurantmenu::lang.plugin.name'
+    description: 'blazcigale.restaurantmenu::lang.plugin.description'
     author: BlazCigale
     icon: oc-icon-book
-    homepage: 'https://github.com/sikhub/october-plugin-restaurant-menu'
+    homepage: 'https://github.com/blazcigale/october-plugin-restaurant-menu'
 navigation:
-    sikhub-menu:
-        label: 'sikhub.restaurantmenu::lang.menu.menu'
-        url: sikhub/restaurantmenu/items
+    blazcigale-menu:
+        label: 'blazcigale.restaurantmenu::lang.menu.menu'
+        url: blazcigale/restaurantmenu/items
         icon: icon-book
         permissions:
             - can_edit_items
         sideMenu:
-            sikhub-items:
-                label: 'sikhub.restaurantmenu::lang.menu.items'
-                url: sikhub/restaurantmenu/items
+            blazcigale-items:
+                label: 'blazcigale.restaurantmenu::lang.menu.items'
+                url: blazcigale/restaurantmenu/items
                 icon: icon-sitemap
                 permissions:
                     - can_edit_items
-            sikhub-sections:
-                label: 'sikhub.restaurantmenu::lang.menu.sections'
-                url: sikhub/restaurantmenu/sections
+            blazcigale-sections:
+                label: 'blazcigale.restaurantmenu::lang.menu.sections'
+                url: blazcigale/restaurantmenu/sections
                 icon: icon-certificate
                 permissions:
                     - can_edit_sections
-            sikhub-allergens:
-                label: 'sikhub.restaurantmenu::lang.menu.allergens'
-                url: sikhub/restaurantmenu/allergens
+            blazcigale-allergens:
+                label: 'blazcigale.restaurantmenu::lang.menu.allergens'
+                url: blazcigale/restaurantmenu/allergens
                 icon: icon-bug

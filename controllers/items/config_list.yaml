@@ -1,5 +1,5 @@
-list: $/sikhub/restaurantmenu/models/item/columns.yaml
-modelClass: Sikhub\RestaurantMenu\Models\Item
+list: $/blazcigale/restaurantmenu/models/item/columns.yaml
+modelClass: BlazCigale\RestaurantMenu\Models\Item
 title: Items
 noRecordsMessage: 'backend::lang.list.no_records'
 showSetup: true
@@ -9,4 +9,4 @@ toolbar:
     buttons: list_toolbar
     search:
         prompt: 'backend::lang.list.search_prompt'
-recordUrl: 'sikhub/restaurantmenu/items/update/:id'
+recordUrl: 'blazcigale/restaurantmenu/items/update/:id'

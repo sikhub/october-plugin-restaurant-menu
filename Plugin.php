@@ -1,6 +1,6 @@
-<?php namespace Sikhub\RestaurantMenu;
+<?php namespace BlazCigale\RestaurantMenu;
 
-use Sikhub\RestaurantMenu\Components\MenuItems;
+use BlazCigale\RestaurantMenu\Components\MenuItems;
 use System\Classes\PluginBase;
 
 class Plugin extends PluginBase

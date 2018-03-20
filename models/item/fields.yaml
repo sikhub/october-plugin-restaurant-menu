@@ -1,30 +1,30 @@
 fields:
     title:
-        label: 'sikhub.restaurantmenu::lang.item.title'
+        label: 'blazcigale.restaurantmenu::lang.item.title'
         span: auto
         required: 1
         type: text
     price:
-        label: 'sikhub.restaurantmenu::lang.item.price'
+        label: 'blazcigale.restaurantmenu::lang.item.price'
         span: auto
         type: text
     description:
-        label: 'sikhub.restaurantmenu::lang.item.description'
+        label: 'blazcigale.restaurantmenu::lang.item.description'
         span: full
         type: text
 tabs:
     fields:
         section:
-            label: 'sikhub.restaurantmenu::lang.item.section'
+            label: 'blazcigale.restaurantmenu::lang.item.section'
             nameFrom: title
             span: auto
             required: 1
             type: relation
-            tab: 'sikhub.restaurantmenu::lang.item.tab.settings'
+            tab: 'blazcigale.restaurantmenu::lang.item.tab.settings'
         allergens:
-            label: 'sikhub.restaurantmenu::lang.item.allergens'
+            label: 'blazcigale.restaurantmenu::lang.item.allergens'
             nameFrom: name
             descriptionFrom: description
             span: auto
             type: relation
-            tab: 'sikhub.restaurantmenu::lang.item.tab.allergens'
+            tab: 'blazcigale.restaurantmenu::lang.item.tab.allergens'

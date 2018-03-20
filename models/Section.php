@@ -1,4 +1,4 @@
-<?php namespace Sikhub\RestaurantMenu\Models;
+<?php namespace BlazCigale\RestaurantMenu\Models;
 
 use Model;
 
@@ -24,7 +24,7 @@ class Section extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'sikhub_restaurantmenu_sections';
+    public $table = 'blazcigale_restaurantmenu_sections';
 
     public $hasMany = [
         'items' => Item::class,

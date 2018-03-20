@@ -1,5 +1,5 @@
-list: $/sikhub/restaurantmenu/models/section/columns.yaml
-modelClass: Sikhub\RestaurantMenu\Models\Section
+list: $/blazcigale/restaurantmenu/models/section/columns.yaml
+modelClass: BlazCigale\RestaurantMenu\Models\Section
 title: Sections
 noRecordsMessage: 'backend::lang.list.no_records'
 showSetup: true
@@ -9,4 +9,4 @@ toolbar:
     buttons: list_toolbar
     search:
         prompt: 'backend::lang.list.search_prompt'
-recordUrl: 'sikhub/restaurantmenu/sections/update/:id'
+recordUrl: 'blazcigale/restaurantmenu/sections/update/:id'

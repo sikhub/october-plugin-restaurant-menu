@@ -1,4 +1,4 @@
-<?php namespace Sikhub\RestaurantMenu\Controllers;
+<?php namespace BlazCigale\RestaurantMenu\Controllers;
 
 use Backend\Classes\Controller;
 use BackendMenu;
@@ -14,6 +14,6 @@ class Items extends Controller
     public function __construct()
     {
         parent::__construct();
-        BackendMenu::setContext('Sikhub.RestaurantMenu', 'sikhub-menu', 'sikhub-items');
+        BackendMenu::setContext('BlazCigale.RestaurantMenu', 'blazcigale-menu', 'blazcigale-items');
     }
 }

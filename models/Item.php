@@ -1,4 +1,4 @@
-<?php namespace Sikhub\RestaurantMenu\Models;
+<?php namespace BlazCigale\RestaurantMenu\Models;
 
 use Model;
 
@@ -24,7 +24,7 @@ class Item extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'sikhub_restaurantmenu_items';
+    public $table = 'blazcigale_restaurantmenu_items';
 
     public $belongsTo = [
         'section' => Section::class,
@@ -33,7 +33,7 @@ class Item extends Model
     public $belongsToMany = [
         'allergens' => [
             Allergen::class,
-            'table' => 'sikhub_restaurantmenu_items_allergens',
+            'table' => 'blazcigale_restaurantmenu_items_allergens',
             'key' => 'item_id',
             'otherKey' => 'allergen_id',
         ],

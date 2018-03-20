@@ -1,10 +1,10 @@
 name: Items
-form: $/sikhub/restaurantmenu/models/item/fields.yaml
-modelClass: Sikhub\RestaurantMenu\Models\Item
-defaultRedirect: sikhub/restaurantmenu/items
+form: $/blazcigale/restaurantmenu/models/item/fields.yaml
+modelClass: BlazCigale\RestaurantMenu\Models\Item
+defaultRedirect: blazcigale/restaurantmenu/items
 create:
-    redirect: 'sikhub/restaurantmenu/items/update/:id'
-    redirectClose: sikhub/restaurantmenu/items
+    redirect: 'blazcigale/restaurantmenu/items/update/:id'
+    redirectClose: blazcigale/restaurantmenu/items
 update:
-    redirect: sikhub/restaurantmenu/items
-    redirectClose: sikhub/restaurantmenu/items
+    redirect: blazcigale/restaurantmenu/items
+    redirectClose: blazcigale/restaurantmenu/items

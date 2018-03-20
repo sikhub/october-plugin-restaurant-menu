@@ -1,14 +1,14 @@
-<?php namespace Sikhub\RestaurantMenu\Components;
+<?php namespace BlazCigale\RestaurantMenu\Components;
 
 use Cms\Classes\ComponentBase;
-use Sikhub\RestaurantMenu\Models\Allergen;
-use Sikhub\RestaurantMenu\Models\Section;
+use BlazCigale\RestaurantMenu\Models\Allergen;
+use BlazCigale\RestaurantMenu\Models\Section;
 
 /**
  * The menu items component.
  *
- * @package sikhub\restaurantmenu
- * @author Sikhub
+ * @package blazcigale\restaurantmenu
+ * @author BlazCigale
  */
 class MenuItems extends ComponentBase
 {
@@ -18,8 +18,8 @@ class MenuItems extends ComponentBase
     public function componentDetails()
     {
         return [
-            'name'        => 'sikhub.restaurantmenu::lang.component.menu_items.name',
-            'description' => 'sikhub.restaurantmenu::lang.component.menu_items.description'
+            'name'        => 'blazcigale.restaurantmenu::lang.component.menu_items.name',
+            'description' => 'blazcigale.restaurantmenu::lang.component.menu_items.description'
         ];
     }
     

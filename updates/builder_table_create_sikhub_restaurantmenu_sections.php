@@ -1,13 +1,13 @@
-<?php namespace Sikhub\RestaurantMenu\Updates;
+<?php namespace BlazCigale\RestaurantMenu\Updates;
 
 use Schema;
 use October\Rain\Database\Updates\Migration;
 
-class BuilderTableCreateSikhubRestaurantmenuSections extends Migration
+class BuilderTableCreateBlazCigaleRestaurantmenuSections extends Migration
 {
     public function up()
     {
-        Schema::create('sikhub_restaurantmenu_sections', function($table)
+        Schema::create('blazcigale_restaurantmenu_sections', function($table)
         {
             $table->engine = 'InnoDB';
             $table->increments('id')->unsigned();
@@ -17,6 +17,6 @@ class BuilderTableCreateSikhubRestaurantmenuSections extends Migration
     
     public function down()
     {
-        Schema::dropIfExists('sikhub_restaurantmenu_sections');
+        Schema::dropIfExists('blazcigale_restaurantmenu_sections');
     }
 }

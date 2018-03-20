@@ -5,19 +5,19 @@ columns:
         searchable: true
         sortable: true
     section_id:
-        label: 'sikhub.restaurantmenu::lang.item.section'
+        label: 'blazcigale.restaurantmenu::lang.item.section'
         type: number
         select: title
         relation: section
     title:
-        label: 'sikhub.restaurantmenu::lang.item.title'
+        label: 'blazcigale.restaurantmenu::lang.item.title'
         type: text
         searchable: true
     description:
-        label: 'sikhub.restaurantmenu::lang.item.description'
+        label: 'blazcigale.restaurantmenu::lang.item.description'
         type: text
         invisible: true
     price:
-        label: 'sikhub.restaurantmenu::lang.item.price'
+        label: 'blazcigale.restaurantmenu::lang.item.price'
         type: text
         sortable: true

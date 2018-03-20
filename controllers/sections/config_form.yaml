@@ -1,10 +1,10 @@
 name: Sections
-form: $/sikhub/restaurantmenu/models/section/fields.yaml
-modelClass: Sikhub\RestaurantMenu\Models\Section
-defaultRedirect: sikhub/restaurantmenu/sections
+form: $/blazcigale/restaurantmenu/models/section/fields.yaml
+modelClass: BlazCigale\RestaurantMenu\Models\Section
+defaultRedirect: blazcigale/restaurantmenu/sections
 create:
-    redirect: 'sikhub/restaurantmenu/sections/update/:id'
-    redirectClose: sikhub/restaurantmenu/sections
+    redirect: 'blazcigale/restaurantmenu/sections/update/:id'
+    redirectClose: blazcigale/restaurantmenu/sections
 update:
-    redirect: sikhub/restaurantmenu/sections
-    redirectClose: sikhub/restaurantmenu/sections
+    redirect: blazcigale/restaurantmenu/sections
+    redirectClose: blazcigale/restaurantmenu/sections

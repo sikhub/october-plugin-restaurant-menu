@@ -5,12 +5,12 @@ columns:
         searchable: true
         sortable: true
     name:
-        label: 'sikhub.restaurantmenu::lang.allergen.name'
+        label: 'blazcigale.restaurantmenu::lang.allergen.name'
         type: text
         searchable: true
         sortable: true
     code:
-        label: 'sikhub.restaurantmenu::lang.allergen.code'
+        label: 'blazcigale.restaurantmenu::lang.allergen.code'
         type: text
         searchable: true
         sortable: true

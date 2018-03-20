@@ -1,4 +1,4 @@
 title: Items
-modelClass: Sikhub\RestaurantMenu\Models\Item
+modelClass: BlazCigale\RestaurantMenu\Models\Item
 toolbar:
     buttons: reorder_toolbar
