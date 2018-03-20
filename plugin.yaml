@@ -1,7 +1,7 @@
 plugin:
     name: 'sikhub.restaurantmenu::lang.plugin.name'
     description: 'sikhub.restaurantmenu::lang.plugin.description'
-    author: Sikhub
+    author: BlazCigale
     icon: oc-icon-book
     homepage: 'https://github.com/sikhub/october-plugin-restaurant-menu'
 navigation:
