@@ -1,0 +1,4 @@
+title: DailyOffers
+modelClass: BlazCigale\RestaurantMenu\Models\DailyOffer
+toolbar:
+    buttons: reorder_toolbar

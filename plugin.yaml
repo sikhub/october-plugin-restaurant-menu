@@ -28,3 +28,7 @@ navigation:
                 label: 'blazcigale.restaurantmenu::lang.menu.allergens'
                 url: blazcigale/restaurantmenu/allergens
                 icon: icon-bug
+            blazcigale-daily-offers:
+                label: 'blazcigale.restaurantmenu::lang.menu.daily_offers'
+                url: blazcigale/restaurantmenu/dailyoffers
+                icon: icon-calendar

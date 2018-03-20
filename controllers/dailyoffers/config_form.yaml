@@ -1,0 +1,10 @@
+name: DailyOffers
+form: $/blazcigale/restaurantmenu/models/dailyoffer/fields.yaml
+modelClass: BlazCigale\RestaurantMenu\Models\DailyOffer
+defaultRedirect: blazcigale/restaurantmenu/dailyoffers
+create:
+    redirect: 'blazcigale/restaurantmenu/dailyoffers/update/:id'
+    redirectClose: blazcigale/restaurantmenu/dailyoffers
+update:
+    redirect: blazcigale/restaurantmenu/dailyoffers
+    redirectClose: blazcigale/restaurantmenu/dailyoffers

@@ -1,0 +1,22 @@
+columns:
+    id:
+        label: id
+        type: number
+        searchable: true
+        invisible: true
+        sortable: true
+    name:
+        label: 'blazcigale.restaurantmenu::lang.offer.name'
+        type: text
+        searchable: true
+        sortable: true
+    price:
+        label: 'blazcigale.restaurantmenu::lang.offer.price'
+        type: text
+        searchable: true
+        sortable: true
+    date:
+        label: 'blazcigale.restaurantmenu::lang.offer.date'
+        type: text
+        searchable: true
+        sortable: true

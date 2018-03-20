@@ -15,3 +15,12 @@
 1.0.6:
     - 'Created table blazcigale_restaurantmenu_items_allergens'
     - builder_table_create_blaz_cigale_restaurantmenu_items_allergens.php
+1.0.7:
+    - 'Updated table blazcigale_restaurantmenu_items'
+    - builder_table_update_blazcigale_restaurantmenu_items_2.php
+1.0.8:
+    - 'Created table blazcigale_restaurantmenu_daily_offer'
+    - builder_table_create_blazcigale_restaurantmenu_daily_offer.php
+1.0.9:
+    - 'Created table blazcigale_restaurantmenu_daily_offer_allergens'
+    - builder_table_create_blazcigale_restaurantmenu_daily_offer_allergens.php

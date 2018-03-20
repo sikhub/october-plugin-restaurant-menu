@@ -28,6 +28,7 @@
         'sections' => 'Sections',
         'items' => 'Items',
         'allergens' => 'Allergens',
+        'daily_offers' => 'Daily offers',
     ],
     'component' => [
         'menu_items' => [
@@ -39,5 +40,16 @@
         'code' => 'Code',
         'name' => 'Name',
         'id' => 'Id',
+    ],
+    'offer' => [
+        'name' => 'Name',
+        'code' => 'Code',
+        'price' => 'Price',
+        'date' => 'Date',
+        'id' => 'Id',
+        'tab' => [
+            'allergens' => 'Allergens',
+        ],
+        'allergens' => 'Allergens',
     ],
 ];

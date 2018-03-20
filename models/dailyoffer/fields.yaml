@@ -1,0 +1,27 @@
+fields:
+    name:
+        label: 'blazcigale.restaurantmenu::lang.offer.name'
+        span: auto
+        required: 1
+        type: text
+    price:
+        label: 'blazcigale.restaurantmenu::lang.offer.price'
+        span: auto
+        required: 1
+        type: text
+    date:
+        label: 'blazcigale.restaurantmenu::lang.offer.date'
+        mode: date
+        span: auto
+        required: 1
+        type: datepicker
+tabs:
+    fields:
+        allergens:
+            label: 'blazcigale.restaurantmenu::lang.offer.allergens'
+            nameFrom: name
+            descriptionFrom: description
+            span: auto
+            required: 0
+            type: relation
+            tab: 'blazcigale.restaurantmenu::lang.offer.tab.allergens'
