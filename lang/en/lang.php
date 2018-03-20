@@ -35,6 +35,10 @@
             'name' => 'Menu items',
             'description' => 'Display menu sections and items',
         ],
+        'daily_offers' => [
+            'name' => 'Daily offers',
+            'description' => 'Display daily offers',
+        ],
     ],
     'allergen' => [
         'code' => 'Code',

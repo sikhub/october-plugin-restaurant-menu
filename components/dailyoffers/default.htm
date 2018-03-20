@@ -1,0 +1,14 @@
+{% set offers = __SELF__.offers %}
+
+{% for key, day in offers %}
+    <h5>{{ key|_ }}</h5>
+    {% for item in day %}
+        {{ item.name }}
+        {{ item.price }}
+
+        <br>
+        {% for allergen in item.allergens %}
+            {{ allergen.code }} - {{ allergen.name }}
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
