@@ -1,6 +1,7 @@
 <?php namespace Sikhub\RestaurantMenu\Components;
 
 use Cms\Classes\ComponentBase;
+use Sikhub\RestaurantMenu\Models\Allergen;
 use Sikhub\RestaurantMenu\Models\Section;
 
 /**
@@ -12,6 +13,7 @@ use Sikhub\RestaurantMenu\Models\Section;
 class MenuItems extends ComponentBase
 {
     public $sections = [];
+    public $allergens = [];
 
     public function componentDetails()
     {
@@ -28,6 +30,7 @@ class MenuItems extends ComponentBase
 
     public function onRun()
     {
-        $this->sections = Section::with('items')->get();
+        $this->sections = Section::with(['items', 'items.allergens'])->get();
+        $this->allergens = Allergen::all();
     }
 }

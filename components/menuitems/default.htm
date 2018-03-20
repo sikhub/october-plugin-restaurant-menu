@@ -1,3 +1,4 @@
+{% set currentAllergens = [] %}
 {% for section in __SELF__.sections %}
     <h5>{{ section.title }}</h5>
 
@@ -5,5 +6,15 @@
         {{ item.title }}
         {{ item.description }}
         {{ item.price }}
+
+        {% for allergen in item.allergens %}
+            {% set currentAllergens = currentAllergens|merge({'name': allergen.name, 'code': allergen.code}) %}
+            <i class="icon-{{ allergen.code }}"></i>
+        {% endfor %}
     {% endfor %}
+{% endfor %}
+
+{{ 'Allergens legend'|_ }}
+{% for allergen in __SELF__.allergens %}
+    {{ allergen.name }} - {{ allergen.code }}
 {% endfor %}
