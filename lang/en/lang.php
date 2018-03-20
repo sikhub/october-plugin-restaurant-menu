@@ -26,4 +26,10 @@
         'sections' => 'Sections',
         'items' => 'Items',
     ],
+    'component' => [
+        'menu_items' => [
+            'name' => 'Menu items',
+            'description' => 'Display menu sections and items',
+        ],
+    ],
 ];

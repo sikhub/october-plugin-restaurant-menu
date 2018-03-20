@@ -1,0 +1,9 @@
+{% for section in __SELF__.sections %}
+    <h5>{{ section.title }}</h5>
+
+    {% for item in section.items %}
+        {{ item.title }}
+        {{ item.description }}
+        {{ item.price }}
+    {% endfor %}
+{% endfor %}
