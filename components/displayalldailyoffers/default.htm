@@ -1,0 +1,23 @@
+{% set offers = __SELF__.offers %}
+
+{% for items in offers %}
+    {% for key, items in items.groupBy('date') %}
+        <ul class="main">
+            <li>{{ key|date('d.m.Y') }}</li>
+            {% for item in items %}
+                <ul class="sub">
+                    <li>{{ item.name }} - {{ item.date }}</li>
+                </ul>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+    <hr>
+{% endfor %}
+
+{% put styles %}
+    <style>
+        ul.main { border-bottom: 1px #ccc dotted; }
+        ul.sub { padding-left: 20px; }
+        hr { background: #000; }
+    </style>
+{% endput %}
