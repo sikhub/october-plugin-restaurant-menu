@@ -3,12 +3,15 @@
 {% for items in offers %}
     {% for key, items in items.groupBy('date') %}
         <ul class="main">
-            <li>{{ key|date('d.m.Y') }}</li>
-            {% for item in items %}
+            <li>{{ key|date('d.m.Y') }}
                 <ul class="sub">
-                    <li>{{ item.name }} - {{ item.date }}</li>
+                    {% for item in items %}
+
+                            <li>{{ item.name }} - {{ item.price }}€</li>
+
+                    {% endfor %}
                 </ul>
-            {% endfor %}
+            </li>
         </ul>
     {% endfor %}
     <hr>
