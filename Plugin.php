@@ -3,6 +3,7 @@
 use BlazCigale\RestaurantMenu\Components\DailyOffers;
 use BlazCigale\RestaurantMenu\Components\DisplayAllDailyOffers;
 use BlazCigale\RestaurantMenu\Components\MenuItems;
+use Rebel59\Isogallery\Components\IsoGallery;
 use System\Classes\PluginBase;
 
 class Plugin extends PluginBase
@@ -14,6 +15,13 @@ class Plugin extends PluginBase
             DailyOffers::class => 'dailyOffers',
             DisplayAllDailyOffers::class => 'displayAllDailyOffers',
         ];
+    }
+
+    public function registerPageSnippets()
+    {
+        return array_merge($this->registerComponents(), [
+            IsoGallery::class => 'isoGallery',
+        ]);
     }
 
     public function registerSettings()
